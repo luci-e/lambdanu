@@ -1,0 +1,197 @@
+[
+    {
+        "module": "Src/main.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 8, 
+            ".bss": 264358, 
+            ".data": 10, 
+            ".bss-delta": 0, 
+            ".text": 4574
+        }
+    }, 
+    {
+        "module": "Src/stm32f7xx_hal_msp.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 568
+        }
+    }, 
+    {
+        "module": "Src/stm32f7xx_it.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 56
+        }
+    }, 
+    {
+        "module": "[fill]", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": -8, 
+            ".bss": 65, 
+            ".data": 18, 
+            ".bss-delta": 0, 
+            ".text": 286
+        }
+    }, 
+    {
+        "module": "[lib]/c.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 89, 
+            ".data": 2472, 
+            ".bss-delta": 0, 
+            ".text": 30000
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 772
+        }
+    }, 
+    {
+        "module": "[lib]/misc", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 28, 
+            ".data": 4, 
+            ".bss-delta": 0, 
+            ".text": 180
+        }
+    }, 
+    {
+        "module": "[lib]/stdc++.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 0
+        }
+    }, 
+    {
+        "module": "mbed-os/components", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 136
+        }
+    }, 
+    {
+        "module": "mbed-os/drivers", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 1852, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 2810
+        }
+    }, 
+    {
+        "module": "mbed-os/events", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 3108, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 1488
+        }
+    }, 
+    {
+        "module": "mbed-os/features", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 23570, 
+            ".data": 103, 
+            ".bss-delta": 0, 
+            ".text": 52806
+        }
+    }, 
+    {
+        "module": "mbed-os/hal", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 130, 
+            ".data": 8, 
+            ".bss-delta": 0, 
+            ".text": 1738
+        }
+    }, 
+    {
+        "module": "mbed-os/platform", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 313, 
+            ".data": 260, 
+            ".bss-delta": 0, 
+            ".text": 6052
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 6236, 
+            ".data": 168, 
+            ".bss-delta": 0, 
+            ".text": 11066
+        }
+    }, 
+    {
+        "module": "mbed-os/targets", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 1707, 
+            ".data": 5, 
+            ".bss-delta": 0, 
+            ".text": 21854
+        }
+    }, 
+    {
+        "module": "nRF24L01P/nRF24L01P.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 2218
+        }
+    }, 
+    {
+        "summary": {
+            "static_ram": 304504, 
+            "total_flash_delta": 0, 
+            "static_ram_delta": 0, 
+            "total_flash": 139652
+        }
+    }
+]

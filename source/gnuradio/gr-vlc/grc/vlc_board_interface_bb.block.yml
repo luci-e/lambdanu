@@ -1,0 +1,59 @@
+id: vlc_board_interface_b
+label: board_interface
+category: '[vlc]'
+
+templates:
+  imports: import vlc
+  make: vlc.board_interface_bb(${address}, ${cmd_port}, ${data_port}, ${block_size})
+
+#  Make one 'parameters' list entry for every parameter you want settable from the GUI.
+#     Keys include:
+#     * id (makes the value accessible as \$keyname, e.g. in the make entry)
+#     * label (label shown in the GUI)
+#     * dtype (e.g. int, float, complex, byte, short, xxx_vector, ...)
+
+parameters:
+  - id: address
+    label: address
+    dtype: string
+  - id: cmd_port
+    label: cmd_port
+    dtype: int
+  - id: data_port
+    label: data_port
+    dtype: int
+  - id: block_size
+    label: block_size
+    dtype: int
+#  Make one 'inputs' list entry per input and one 'outputs' list entry per output.
+#  Keys include:
+#      * label (an identifier for the GUI)
+#      * domain (optional - stream or message. Default is stream)
+#      * dtype (e.g. int, float, complex, byte, short, xxx_vector, ...)
+#      * vlen (optional - data stream vector length. Default is 1)
+#      * optional (optional - set to 1 for optional inputs. Default is 0)
+
+inputs:
+  - label: dataIn
+    domain: stream
+    dtype: byte
+    vlen: 1
+    optional: 1
+  - label: msg_in
+    domain: message
+    dtype: raw
+    optional: 1
+
+outputs:
+  - label: dataOut
+    domain: stream
+    dtype: byte
+    optional: 1
+  - label: msg_out
+    domain: message
+    dtype: raw
+    optional: 1
+
+#  'file_format' specifies the version of the GRC yml format used in the file
+#  and should usually not be changed.
+file_format: 1
