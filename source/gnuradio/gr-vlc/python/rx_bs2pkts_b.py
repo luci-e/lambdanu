@@ -27,7 +27,7 @@ from enum import Enum
 
 class rx_bs2pkts_b(gr.sync_decimator):
     """
-    A utility block to avoid loops, receives a bitstream and outputs the packets on the message port.
+    A utility block to avoid loops, receives a bytestream and outputs the packets on the message port.
     """
 
     class StreamStatus(Enum):
